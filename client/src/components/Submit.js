@@ -7,7 +7,7 @@ function Submit(props) {
 
   useEffect(() => {
     fetch(
-      `http://localhost:3001/getresultsstudent?rollNumber=${resrol}&subjectCode=${code}&date=${date}`,
+      `https://evalutron.onrender.com/getresultsstudent?rollNumber=${resrol}&subjectCode=${code}&date=${date}`,
       {
         method: "GET",
       }

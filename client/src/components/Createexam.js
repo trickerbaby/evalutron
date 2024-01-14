@@ -62,7 +62,7 @@ export default function Createexam() {
   const handleSubmit = () => {
     const jsonData = JSON.stringify(examData, null, 2);
     axios
-      .post("http://localhost:3001/insertquestion", jsonData, {
+      .post("https://evalutron.onrender.com/insertquestion", jsonData, {
         headers: {
           "Content-Type": "application/json",
         },

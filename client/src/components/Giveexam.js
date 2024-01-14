@@ -53,6 +53,8 @@ function Giveexam(props) {
 
     return () => clearInterval(timer);
   }, [timeLeft]);
+
+  
   const handleInputChange = (event) => {
     setSubjectCode(event.target.value);
   };
@@ -75,7 +77,7 @@ function Giveexam(props) {
         setCurrentDate(date);
         const queryParams = `?subjectCode=${subjectCode}&date=${date}`;
         axios
-          .get(`http://localhost:3001/getSubject/${queryParams}`)
+          .get(`https://evalutron.onrender.com/getSubject/${queryParams}`)
           .then((response) => {
             setQuestions(response.data.questions);
             setcomment(response.data.comment);
@@ -123,7 +125,7 @@ function Giveexam(props) {
         console.log("info = ", userInfo);
 
         axios
-          .post("http://localhost:3001/submit-answer", examData)
+          .post("https://evalutron.onrender.com/submit-answer", examData)
           .then((response) => {
             console.log(response.data);
             setSubmitted(true);
