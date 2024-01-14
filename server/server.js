@@ -20,7 +20,7 @@ console.log("Evironement variables:", process.env);
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const configuration = new Configuration({
-  apiKey: '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'
+  apiKey: process.env.OPENAI_API_KEY
 });
 
 
