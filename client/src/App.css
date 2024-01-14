@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* .home-body-container{
+  font-family: 'jost';
+  background-image: url('./components/pictures/Rectangle.png');
+  width: auto;
+  margin-left: 3%;
+  margin-right: 3%;
+  height:90vh;
+} */
+
+.nav-link{
+  padding-left: 30px !important;
+}
+.signup{
+  padding-left: 800px;
+  
+}
+.btn-outline-dark{
+  border: rgb(192, 192, 192) solid 1px !important;
+  border-radius: 300px;
+}
+#body{
+  /* margin-left: 20px; */
+  width: 100vw !important;
+}
+.body-btn{
+  background-color: #ff29ed;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bolder;
+  font-size: 34px;
+  padding: 15px 25px;
+  /* margin: 10px; */
+  transition: all  200ms ease-in-out;
+}
+.card{
+  width: 18rem;
+  height: 350px;
+  transition: all 300ms ease;
+}
+.card:hover{
+  transform: rotate(1deg);
+  cursor: pointer;
+}
+.body-btn:hover{
+  scale: 107%;
+  background-color: #e900d5;
+  transform: rotate(3deg);
+}
+.card{
+  border-radius: 10%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.card-text{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.body2-btn{
+  background-color: #ea96c2;
+  border: none;
+  border-radius: 18px;
+  color: #7b2241;
+  width: 245px;
+  font-weight: bolder;
+  font-size: 27px;
+  padding: 21px;
+  margin: 10px;
+}
+#body2{
+  width: 85vw !important;
+  float: right;
+}
+#body3{
+  width: 85vw !important;
+}
+.body3-btn{
+  background-color: #ea96c2;
+  border: none;
+  border-radius: 18px;
+  color: #7b2241;
+  width: 245px;
+  font-weight: bolder;
+  font-size: 27px;
+  padding: 25px;
+  margin: 10px;
+}
+#body4{
+  width: 85vw !important;
+  float: right;
+}
+.body4-btn{
+  background-color: #ea96c2;
+  border: none;
+  border-radius: 18px;
+  color: #7b2241;
+  width: 245px;
+  font-weight: bolder;
+  font-size: 27px;
+  padding: 25px;
+  margin: 10px;
+}
+
+#body5{
+  width: 85vw !important;
+}
+.body5-btn{
+  background-color: #ea96c2;
+  border: none;
+  border-radius: 18px;
+  color: #7b2241;
+  width: 245px;
+  font-weight: bolder;
+  font-size: 27px;
+  padding: 25px;
+  margin: 10px;
+}
+
+body{
+  background-color: #f5ebfc;
+}
+
+.footer-home{
+  background-color: #2e2a73;
+}
+.foot{
+  /* margin-left: 40px; */
+  color: white;
+}
+.foot1{
+  color: white;
+  font-size: 25px;
+  list-style: none;
+}
+.foot2{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.social{
+  margin-top: 40px;
+  width: 50px;
+}
+#stud{
+  width: 100vw;
+  height:100vh;
+}
+.heading{
+  font-family: 'Jost', sans-serif;
+}
+@media screen {
+  
+}
